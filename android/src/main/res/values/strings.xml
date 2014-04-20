@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTutorial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="caputre_button">调用内置相机拍照</string>
+    <string name="title_activity_send_broadcast">SendBroadcastActivity</string>
+    <string name="title_activity_dynamic_register_broadcast_receiver">DynamicRegisterBroadcastReceiver</string>
+    <string name="title_activity_scan_barcode">ScanBarcode</string>
+
+</resources>

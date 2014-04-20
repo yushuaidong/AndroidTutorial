@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#00BBFF">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMainActivity"
+                android:text="切换到MainActivity"
+                android:layout_margin="10px"
+                android:background="#FFBB00" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSecondActivity"
+                android:text="切换到SecondActivity"
+                android:layout_margin="10px"
+                android:background="#BB00FF" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActivityLifeCycle"
+                android:text="切换到ActivityLifeCycle"
+                android:background="#00FFBB"
+                android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCaptureActivity"
+                android:text="切换到CaptureActivity"
+                android:background="#BBFFCC"
+                android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBroadcastActivity"
+                android:text="切换到Broadcast Activity"
+                android:background="#FFCCFF"
+                android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnDynamicBroadcastReceiver"
+                android:text="切换到动态注册广播接收器"
+                android:background="#99CCFF"
+                android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnScanActivity"
+                android:text="切换到条码扫描界面"
+                android:background="#00FFEE"
+                android:layout_margin="10px" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn"
+                android:text="切换到..."
+                android:layout_margin="10px" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
