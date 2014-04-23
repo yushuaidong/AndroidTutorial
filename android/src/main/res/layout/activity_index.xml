@@ -71,6 +71,23 @@
                 android:text="切换到条码扫描界面"
                 android:background="#00FFEE"
                 android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnThreadTutorialActivity"
+                android:text="切换到Android线程教程"
+                android:background="#ffff7500"
+                android:layout_margin="10px" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnStartServiceActivity"
+                android:text="切换到StartActivity界面"
+                android:background="#ff00ff1a"
+                android:layout_margin="10px" />
+
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

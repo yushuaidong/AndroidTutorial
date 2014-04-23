@@ -50,6 +50,21 @@
             android:name="com.chen.activity.ScanBarcodeActivity"
             android:label="@string/title_activity_scan_barcode" >
         </activity>
+        <activity
+            android:name="com.chen.activity.ThreadTutorialActivity"
+            android:label="@string/title_activity_thread_tutorial" >
+        </activity>
+        <activity
+            android:name="com.chen.activity.StartServiceActivity"
+            android:label="@string/title_activity_start_service" >
+        </activity>
+
+        <service android:name="com.chen.service.StartService">
+
+        </service>
+        <service android:name="com.chen.service.BindService">
+
+        </service>
     </application>
 
     <uses-permission android:name="android.permission.CAMERA" />

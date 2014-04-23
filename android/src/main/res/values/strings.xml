@@ -10,5 +10,7 @@
     <string name="title_activity_send_broadcast">SendBroadcastActivity</string>
     <string name="title_activity_dynamic_register_broadcast_receiver">DynamicRegisterBroadcastReceiver</string>
     <string name="title_activity_scan_barcode">ScanBarcode</string>
+    <string name="title_activity_thread_tutorial">ThreadTutorialActivity</string>
+    <string name="title_activity_start_service">StartServiceActivity</string>
 
 </resources>

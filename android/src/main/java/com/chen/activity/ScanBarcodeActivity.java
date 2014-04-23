@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.chen.androidtutorial.R;
 import com.chen.barcode.IntentIntegrator;
@@ -37,14 +38,13 @@ public class ScanBarcodeActivity extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        //处理扫描结果
         IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode,resultCode,data);
         if(scanResult != null){
-            //扫描成功
+            //处理扫描结果
             tvScanBarcode.setText(scanResult.toString());
         } else {
-            //扫描失败
-
+            //扫描识别未成功
+            Toast.makeText(this,"扫描识别未成功",Toast.LENGTH_SHORT).show();
         }
     }
 }

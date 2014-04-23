@@ -1,8 +1,6 @@
 package com.chen.activity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -21,7 +19,8 @@ import com.chen.androidtutorial.R;
 public class IndexActivity extends Activity {
 
     private Button btnMainActivity, btnSecondActivity, btnActivityLifeCycle, btnCaptureActivity;
-    private Button btnBroadcastActivity, btnDynamicBroadcastReceiver,btnScanActivity;
+    private Button btnBroadcastActivity, btnDynamicBroadcastReceiver,btnScanActivity,btnThreadTutorialActivity;
+    private Button btnStartServiceActivity;
     private ButtonListener listener;
 
     @Override
@@ -46,6 +45,10 @@ public class IndexActivity extends Activity {
         btnBroadcastActivity = (Button) findViewById(R.id.btnBroadcastActivity);
         btnDynamicBroadcastReceiver = (Button) findViewById(R.id.btnDynamicBroadcastReceiver);
         btnScanActivity = (Button) findViewById(R.id.btnScanActivity);
+        btnThreadTutorialActivity = (Button) findViewById(R.id.btnThreadTutorialActivity);
+        btnStartServiceActivity = (Button) findViewById(R.id.btnStartServiceActivity);
+
+
     }
 
     private void SetClickListener() {
@@ -56,6 +59,9 @@ public class IndexActivity extends Activity {
         btnBroadcastActivity.setOnClickListener(listener);
         btnDynamicBroadcastReceiver.setOnClickListener(listener);
         btnScanActivity.setOnClickListener(listener);
+        btnThreadTutorialActivity.setOnClickListener(listener);
+        btnStartServiceActivity.setOnClickListener(listener);
+
     }
 
     private class ButtonListener implements View.OnClickListener {
@@ -91,6 +97,14 @@ public class IndexActivity extends Activity {
                 case R.id.btnScanActivity:
                     Intent i7 = new Intent(IndexActivity.this, ScanBarcodeActivity.class);
                     startActivity(i7);
+                    break;
+                case R.id.btnThreadTutorialActivity:
+                    Intent i8 = new Intent(IndexActivity.this, ThreadTutorialActivity.class);
+                    startActivity(i8);
+                    break;
+                case R.id.btnStartServiceActivity:
+                    Intent i9 = new Intent(IndexActivity.this, StartServiceActivity.class);
+                    startActivity(i9);
                     break;
             }
         }
