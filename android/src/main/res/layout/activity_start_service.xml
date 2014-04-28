@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="启动形式服务示例"
+        android:text="实例一、启动形式服务示例"
         android:gravity="center"
         android:textSize="20dp" />
 
@@ -46,7 +46,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="绑定形式服务示例"
+        android:text="实例二、绑定形式服务示例"
         android:gravity="center"
         android:textSize="20dp" />
 
@@ -71,6 +71,50 @@
         android:id="@+id/btnUnbindService"
         android:background="#ff1eff02"
         android:text="取消绑定服务" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="实例三、同时绑定和启动一个服务"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart_StartBindService"
+            android:background="#ffff5f0d"
+            android:layout_margin="2dp"
+            android:text="start" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStop_StartBindService"
+            android:background="#ff836831"
+            android:layout_margin="2dp"
+            android:text="stop" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBind_StartBindService"
+            android:background="#fffc00ff"
+            android:layout_margin="2dp"
+            android:text="bind" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUnBind_StartBindService"
+            android:background="#ffff925f"
+            android:layout_margin="2dp"
+            android:text="unbind" />
+
+        </LinearLayout>
 
 
 </LinearLayout>

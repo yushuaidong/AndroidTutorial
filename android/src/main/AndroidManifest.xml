@@ -65,6 +65,9 @@
         <service android:name="com.chen.service.BindService">
 
         </service>
+        <service android:name="com.chen.service.StartAndBindService">
+
+        </service>
     </application>
 
     <uses-permission android:name="android.permission.CAMERA" />

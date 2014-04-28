@@ -15,21 +15,29 @@ public class BindService extends Service {
 
     private MyBinder myBinder = new MyBinder();
 
+    private static final String TAG = "BindService";
+
     @Override
     public void onCreate() {
-        Log.w("BindService","BindService->onCreate()");
+        Log.i(TAG,"BindService - > onCreate");
         super.onCreate();
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.w("BindService","BindService->onStartCommand()");
+        Log.d(TAG,"BindService - > onStartCommand");//只有startService会调用
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
+    public boolean onUnbind(Intent intent) {
+        Log.w(TAG,"BindService - > onUnbind");
+        return super.onUnbind(intent);
+    }
+
+    @Override
     public void onDestroy() {
-        Log.w("BindService","BindService->onDestroy()");
+        Log.e(TAG,"BindService - > onDestroy");
         super.onDestroy();
     }
 
@@ -39,9 +47,9 @@ public class BindService extends Service {
     }
 
     public class MyBinder extends Binder{
-        //下载文件
-        public void DownloadFile(){
-            Log.w("BindService","正在下载文件...");
+        public void StartDownload(){
+            //模拟下载文件方法
+            Log.i(TAG,"BinderService正在执行下载任务");
         }
     }
 }

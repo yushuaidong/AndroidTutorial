@@ -84,7 +84,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnStartServiceActivity"
-                android:text="切换到StartActivity界面"
+                android:text="切换到StartServiceActivity界面"
                 android:background="#ff00ff1a"
                 android:layout_margin="10px" />
 

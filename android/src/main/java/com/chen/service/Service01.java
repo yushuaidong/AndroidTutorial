@@ -2,6 +2,7 @@ package com.chen.service;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.Binder;
 import android.os.IBinder;
 
 /**
@@ -101,7 +102,30 @@ import android.os.IBinder;
 public class Service01 extends Service {
 
     @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                //执行耗时的后台操作
+                //比如下载大文件...
+            }
+        });
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
+    }
+
+    private class Bind extends Binder{
+        public void FileDownload(){
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    //下载文件
+                }
+            });
+        }
     }
 }

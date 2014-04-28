@@ -12,17 +12,17 @@ import android.util.Log;
  */
 public class StartService extends Service {
 
-    private static final String TAG = "StartService:";
+    private static final String TAG = "StartService";
 
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.w(TAG,"StartService->onCreate()");
+        Log.i(TAG,"StartService->onCreate() Thread ID: "+Thread.currentThread().getId());
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i(TAG,"StartService->StartCommand()");
+        Log.w(TAG,"StartService->StartCommand()");
         return super.onStartCommand(intent, flags, startId);
 
     }
