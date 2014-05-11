@@ -8,7 +8,7 @@ Android 4.0 Tutorial For Beginer
 [点击这里查看更多](http://qichaochen.github.io/#second)
 
 ##我的联系方式
-----
+
 有任何问题，可以通过以下联系方式和我交流
 
 * 1.邮件(2009chenqc#163.com.com, 把#换成@)
@@ -18,7 +18,6 @@ Android 4.0 Tutorial For Beginer
 
 
 ##《马上学Android》系列视频教程更新详情
-----
 
     Android 4.0 Tutorial 001 - 开发环境配置01
 
@@ -80,8 +79,14 @@ Android 4.0 Tutorial For Beginer
 
 	Android 4.0 Tutorial 030 - 使用Barcode Scanner扫描各种条形码
 
-	Android 4.0 Tutorial 031 - Android启动子线程的三种方式
+	Android 4.0 Tutorial 031 - Service入门到精通01 服务的解析
 
+	Android 4.0 Tutorial 032 - Service入门到精通02 如何创建启动形式服务
+
+	Android 4.0 Tutorial 033 - Service入门到精通03 如何创建绑定形式的服务
+
+	Android 4.0 Tutorial 034 - Service入门到精通04 如何销毁同时具有绑定和启动形式的服务
+
+	Android 4.0 Tutorial 035 - Service入门到精通05 Service和Thread的区别
 
 ##视频更新中...
----
