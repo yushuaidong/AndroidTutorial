@@ -1,19 +1,20 @@
 apply plugin: 'android'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    compileSdkVersion 'android-L'
+    buildToolsVersion "20.0.0"
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 19
+        applicationId "com.tutorchen.android.myapplication"
+        minSdkVersion 11
+        targetSdkVersion 'L'
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
             runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
@@ -21,3 +22,40 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+//android {
+//    buildToolsVersion "20.0.0"
+//
+//    defaultConfig {
+//        applicationId "com.tutorchen.android.myapplication"
+//        versionCode 1
+//        versionName "1.0"
+//    }
+//    buildTypes {
+//        release {
+//            runProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//    }
+//
+//
+//    productFlavors {
+//        l {
+//            minSdkVersion 'android-L'
+//            targetSdkVersion 'android-L'
+//            compileSdkVersion 'android-L'
+//        }
+//        old {
+//            minSdkVersion 10
+//            targetSdkVersion 20
+//            //TODO comment second line if build is not compiles for "L"
+//            compileSdkVersion 20
+//        }
+//    }
+//}
+//
+//dependencies {
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    lCompile 'com.android.support:appcompat-v7:21.+'
+//    oldCompile 'com.android.support:appcompat-v7:19.1.0'
+//}

@@ -3,18 +3,9 @@ Android 4.0 Tutorial For Beginer
 ## 关于我
 ----
 
-[![About Me](http://qichaochen.github.io/images/aboutme.jpg)](http://qichaochen.github.io/#second)
+西北某高校研究僧一枚，生在台湾对岸，求学在三秦大地，自由主义，拒绝浪费生命是我的标签
 
-[点击这里查看更多](http://qichaochen.github.io/#second)
-
-##我的联系方式
-
-有任何问题，可以通过以下联系方式和我交流
-
-* 1.邮件(2009chenqc#163.com.com, 把#换成@)
-* 2.Weibo: [@陈启超_V](http://weibo.com/2491729875)
-* 3.微信公众账号: 搜索“挨踢男之家”
-* 4.[优酷视频主页](http://www.youku.com/)
+[点击这里查看更多](http://qichaochen.github.io)
 
 
 ##《马上学Android》系列视频教程更新详情
@@ -90,3 +81,21 @@ Android 4.0 Tutorial For Beginer
 	Android 4.0 Tutorial 035 - Service入门到精通05 Service和Thread的区别
 
 ##视频更新中...
+
+## 联系我
+
+* [个人博客](http://qichaochen.github.io)
+
+* [Github](https://github.com/qichaochen)
+
+* [Android和Java入门教学视频专辑](http://i.youku.com/u/UMTMzMjM3Njcy/playlists)
+
+* Email: <2009chenqc@163.com>
+
+
+欢迎关注我的微博和微信公众号，提出你的意见和建议~
+
+<table>
+<td>![新浪微博](http://tutorchen.qiniudn.com/Sina%20Weibo%20QRCode.png)</td>
+<td>![微信公众号](http://tutorchen.qiniudn.com/Weixin%20QRCode.jpg)</td>
+</table>
