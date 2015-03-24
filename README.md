@@ -1,12 +1,4 @@
-Android 4.0 Tutorial For Beginer
-=====================
-## 关于我
-----
-
-西北某高校研究僧一枚，生在台湾对岸，求学在三秦大地，自由主义，拒绝浪费生命是我的标签
-
-[点击这里查看更多](http://qichaochen.github.io)
-
+#Android 4.0 Tutorial For Beginer
 
 ##《马上学Android》系列视频教程更新详情
 
@@ -80,11 +72,27 @@ Android 4.0 Tutorial For Beginer
 
 	Android 4.0 Tutorial 035 - Service入门到精通05 Service和Thread的区别
 
-##视频更新中...
+	Android 4.0 Tutorial 036 - Service和Thread的区别
+
+	Android 4.0 Tutorial 037 - 远程服务和前台服务
+
+	Android 4.0 Tutorial 038 - Menu菜单的使用
+
+	Android 4.0 Tutorial 039 - Android Studio Beta 创建向导预览
+
+	Android 4.0 Tutorial 040 - Fragment实战01
+
+	Android 4.0 Tutorial 041 - Fragment实战02
+
+	Android 4.0 Tutorial 042 - Fragment实战03
+
+	Android 4.0 Tutorial 043 - Fragment实战04
+
+	Android 4.0 Tutorial 043 - 使用SharedPreferences
 
 ## 联系我
 
-* [个人博客](http://qichaochen.github.io)
+* [个人博客](http://chenqichao.me)
 
 * [Github](https://github.com/qichaochen)
 
@@ -93,9 +101,7 @@ Android 4.0 Tutorial For Beginer
 * Email: <2009chenqc@163.com>
 
 
-欢迎关注我的微博和微信公众号，提出你的意见和建议~
+欢迎关注我的微博提出你的意见和建议~
 
-<table>
-<td>![新浪微博](http://tutorchen.qiniudn.com/Sina%20Weibo%20QRCode.png)</td>
-<td>![微信公众号](http://tutorchen.qiniudn.com/Weixin%20QRCode.jpg)</td>
-</table>
+![新浪微博](http://tutorchen.qiniudn.com/Sina%20Weibo%20QRCode.png)
+
